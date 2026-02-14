@@ -32,6 +32,7 @@ Default key in `.env.example` is `changeme-ite501`.
 ## Endpoints
 ### Health
 - `GET /health`
+NOTE: I updated /health response
 
 ### Products
 - `GET /api/products`

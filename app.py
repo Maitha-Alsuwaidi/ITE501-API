@@ -41,7 +41,7 @@ def require_api_key():
 
 @app.get("/health")
 def health():
-    return jsonify({"status": "ok", "time": now()})
+    return jsonify({"status": "ok-modified", "time": now()})
 
 @app.before_request
 def auth_guard():
